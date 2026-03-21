@@ -1,0 +1,53 @@
+/* Full screen container, everything centered */
+.container {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;            
+  width: 100vw;              */
+  /* margin: 0; */
+  /* padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: #000;   /* black background */
+  box-sizing: border-box;
+  margin: 40px;
+}
+
+/* Heading */
+h1 {
+  font-size: 36px;
+  margin: 40px;      /* space between h1 and buttons */
+}
+
+/* Button container */
+.btns {
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  gap: 20px;                /* space between buttons */
+}
+
+/* Buttons */
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  margin: 20px;
+  background-color: #333;   /* dark button */
+  transition: transform 0.1s, background-color 0.2s;
+}
+
+/* Scale on click */
+button:active {
+  transform: scale(0.90);
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #555;
+}

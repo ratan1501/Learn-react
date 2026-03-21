@@ -34,7 +34,7 @@
 // Updated
 
 import { useState } from "react";
-
+ 
 const App = () => {
   const [title, setTitle] = useState("");
   const [email, setEmail] = useState("");
